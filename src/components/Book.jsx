@@ -3,7 +3,7 @@ export function Book(props) {
   
     return (
    
-    <h3>{props.nome}</h3>
+    <h3>{`id: ${props.id}, Título: ${props.nome}`}</h3>
     
   );
 }
